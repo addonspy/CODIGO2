@@ -72,8 +72,8 @@
 	
 <item>
 <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PARAVISION</title>
-<link>http://ignorame</link><thumbnail>http://www.paravision.com.py/img/paravision-logo.jpg</thumbnail><fanart>http://.com</fanart>
-<externallink>http://d2i9c9jqs0al43.cloudfront.net/livesnt/smil:livepy.smil/chunklist_b981072.m3u8</externallink>
+<link>http://d2i9c9jqs0al43.cloudfront.net/livesnt/smil:livepy.smil/chunklist_b981072.m3u8</link><thumbnail>http://www.paravision.com.py/img/paravision-logo.jpg</thumbnail><fanart>http://.com</fanart>
+<externallink></externallink>
 </item>
 		
 <item>
@@ -182,7 +182,7 @@
  
 <item>
 <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TELEFUTURO</title>
-<link>http://cdn.livestream.com/chromelessPlayer/examples/jwplayer/players/4.6.swf?type=livestream&amp;autostart=true&amp;displayclick=none</link>
+<link>http://www.ustream.tv/channel/19109913</link>
 <thumbnail>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReXDX0I07NGRrj7Fp5CSYbmvCrumoml_J5ez5Ab3C8niqRo2aO</thumbnail>
 </item>
  
@@ -198,7 +198,7 @@
  
 <item>
 <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]RED GUARANI OPCION 1</title>
-<link><iframe width="480" height="270" src="http://www.ustream.tv/embed/19109913?html5ui" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0" style="border: 0 none transparent;"></iframe><a href="https://www.ustream.tv/services" title="Live video production powered by Ustream" style="padding: 2px 0px 4px; width: 400px; background: #ffffff; display: block; color: #000000; font-weight: normal; font-size: 10px; text-decoration: underline; text-align: left;" target="_blank">Live Video Production</a></link>
+<link>http://www.ustream.tv/channel/19109913</link>
 <thumbnail>https://yt3.ggpht.com/-7Wo49jSKVsE/AAAAAAAAAAI/AAAAAAAAAAA/BPaKp7cdQ3Y/s100-c-k-no/photo.jpg</thumbnail>
 </item>
  
