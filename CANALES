@@ -180,7 +180,7 @@
      
 
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TELEFUTURO ESTABLE</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PRUEBA</title>
 <link>$doregex[url]</link>
 <regex>
     <name>url</name>
@@ -190,7 +190,7 @@
 <regex>
     <name>jsonurl</name>
     <expres>hlsvp":"(.*?)"</expres>
-    <page>http://www.ustream.tv/channel/19109913</page>
+    <page>https://www.youtube.com/watch?v=MBzZiY2Hv1U</page>
 </regex>
 <thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
 <fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
