@@ -179,9 +179,27 @@
     </item>
      
 
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TELEFUTURO ESTABLE</title>
+<link>$doregex[url]</link>
+<regex>
+    <name>url</name>
+    <expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
+    <page></page>
+</regex>
+<regex>
+    <name>jsonurl</name>
+    <expres>hlsvp":"(.*?)"</expres>
+    <page>http://www.ustream.tv/channel/19109913</page>
+</regex>
+<thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
+<fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
+<info>
+</item>
+
  
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TELEFUTURO</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TELEFUTURO 2 </title>
 <link>http://www.ustream.tv/channel/19109913</link>
 <thumbnail>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReXDX0I07NGRrj7Fp5CSYbmvCrumoml_J5ez5Ab3C8niqRo2aO</thumbnail>
 </item>
