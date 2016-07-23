@@ -121,14 +121,14 @@
  
 <item>
              <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL SNT</title>
-             <link>rtmp://199.168.116.13/app/ramtvps-channel</link>
+             <link>http://d2i9c9jqs0al43.cloudfront.net/livesnt/smil:livepy.smil/chunklist_b1016832.m3u8</link>
              <thumbnail>https://pbs.twimg.com/profile_images/378800000301417614/940f68b8d83367d21213aa944f3559e3.jpeg</thumbnail>
              <fanart></fanart>
              <info></info>
 </item> 
 
 <item>
-             <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL SNT OPCION 2</title>
+             <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PARANA TV</title>
              <link>rtmp://67.159.60.37/intercable playpath=intercable</link>
              <thumbnail>https://pbs.twimg.com/profile_images/378800000301417614/940f68b8d83367d21213aa944f3559e3.jpeg</thumbnail>
              <fanart></fanart>
