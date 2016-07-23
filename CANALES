@@ -121,7 +121,7 @@
  
 <item>
              <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL SNT</title>
-             <link>http://universotvparaguay.site88.net/canalesparaguay.php/?banner=4</link>
+             <link>rtmp://199.168.116.13/app/ramtvps-channel</link>
              <thumbnail>https://pbs.twimg.com/profile_images/378800000301417614/940f68b8d83367d21213aa944f3559e3.jpeg</thumbnail>
              <fanart></fanart>
              <info></info>
@@ -129,7 +129,7 @@
 
 <item>
              <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL SNT OPCION 2</title>
-             <link>http://inoseal.blogspot.com/p/canal-9-snt.html</link>
+             <link>rtmp://67.159.60.37/intercable playpath=intercable</link>
              <thumbnail>https://pbs.twimg.com/profile_images/378800000301417614/940f68b8d83367d21213aa944f3559e3.jpeg</thumbnail>
              <fanart></fanart>
              <info></info>
@@ -154,7 +154,7 @@
  
 <item>
     <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]UNICANAL</title>
-    <link>http://inoseal.blogspot.com/p/unicanal.html</link>
+    <link>http://iphone-streaming.ustream.tv/ustreamVideo/12462352/streams/live/playlist.m3u8</link>
     <regex>
     <name>get-m3u8final</name>
     <expres>(http.*?)\s</expres>
