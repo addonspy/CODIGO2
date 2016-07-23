@@ -12,7 +12,7 @@
  
 <item>
 <title>[COLOR green][B]PARAGUAY TV - CANALES[/B][/COLOR]</title>
-<link>plugin://plugin.video.youtube/play/?video</link>
+<link>plugin://plugin.video.youtube/play/?video</linK>
 <thumbnail></thumbnail>
 </item>
 
@@ -121,7 +121,7 @@
 
 <item>
              <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL SNT OPCION 2</title>
-             <link>rtmp://torneoclausuraamigoschatpy.web-personal.org/app/ramtvps-channel</link>
+             <link>http://inoseal.blogspot.com/p/canal-9-snt.html</link>
              <thumbnail>https://pbs.twimg.com/profile_images/378800000301417614/940f68b8d83367d21213aa944f3559e3.jpeg</thumbnail>
              <fanart></fanart>
              <info></info>
