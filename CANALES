@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+
+<channel>
+ 
+<name>""""NACIONALES""""</name>
+<info>CANALES DE PARAGUAY</INFO>
+<thumbnail></thumbnail>
+<fanart></fanart>
+ 
+<item>
+<title>[COLOR green][B]PARAGUAY TV - CANALES[/B][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video</link>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT 1</title>
+<link>$doregex[url]</link>
+<regex>
+    <name>url</name>
+    <expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
+    <page></page>
+</regex>
+<regex>
+    <name>jsonurl</name>
+    <expres>hlsvp":"(.*?)"</expres>
+    <page>https://www.youtube.com/watch?v=CQEmRkXdDsg</page>
+</regex>
+<thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
+<fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
+<info>
+<item>
+
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT 2</title>
+<link>rtmp://95.211.184.231/live playpath=universotv?id=245697&pk=0a782130ece36fcdc6233f71fc05b473e84910515f123b7f19d9c2f51c734615 swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf live=1 pageUrl=http://www.mipsplayer.com/embedplayer/universotv/1/500/400</link>
+<thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
+<fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
+<info>[B][/B]</info>
+</item>	
+
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT 3</title>
+<sportsdevil>http://tvxinternetonline.blogspot.com/2015/01/tigo-sports-online-en-vivo-por-internet.html?m=1</sportsdevil>
+<referer>http://tvxinternetonline.blogspot.com</referer>
+<thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
+<fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
+<info>[B][/B]</info>
+</item>
+
+
+
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CERRO TV</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<thumbnail>http://4.bp.blogspot.com/-7Opv7xyzvAk/T6WYsKpQj2I/AAAAAAAACaM/fzMsuQg6uJA/s1600/CERRO%2BWALL2.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-T7NMyNna358/UHh2tJ_D6XI/AAAAAAAAKdc/alJ30XAnRzs/s1600/CERRO%2BWALL1.jpg</fanart>
+<info>[B][/B]</info>
+</item>	
+	
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PARAVISION</title>
+<link>http://ignorame</link><thumbnail>http://www.paravision.com.py/img/paravision-logo.jpg</thumbnail><fanart>http://.com</fanart>
+<externallink>http://universotvparaguay.site88.net/paravision.m3u</externallink>
+</item>
+		
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]ABC TV</title>
+            <link>$doregex[get-link]</link>
+            <regex>
+            <name>get-link</name>
+            <expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/21235831/streams/live/playlist.m3u8')</expres>
+            <page></page>
+            </regex> 
+            <thumbnail>http://1.bp.blogspot.com/-yaQQ7lYTTbs/U_YK2ZJH3BI/AAAAAAAARg8/mH12MeSDarw/s1600/ABC%2BTV%2BEn%2BVivo%2BABC%2BTV%2BOnline%2Bdesde%2BParaguay.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL 19 CORONEL OVIEDO</title>
+            <link>$doregex[get-link]</link>
+            <regex>
+            <name>get-link</name>
+            <expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/18651489/streams/live/playlist.m3u8')</expres>
+            <page></page>
+            </regex> 
+            <thumbnail>http://4.bp.blogspot.com/-aD1jwQUmqjg/U7aTjO0HcWI/AAAAAAAAQVw/iKedgNaaYHg/s1600/Tv+Aire+Canal+19+En+Vivo+Online+Coronel+Oviedo+Paraguay.jpg</thumbnail>
+</item>
+		
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TV CAMARA PARAGUAY</title>
+<link>plugin://plugin.video.youtube/play/?video_id=B_XwlA0fCSQ</link>
+<thumbnail>http://www.tvcamara.gov.py/images/logo-oficial-tv-camara.png</thumbnail>
+<fanart>http://www.tvcamara.gov.py/images/sampledata/parks/landscape/sesion-ordinaria-de-la-camara-de-diputados-_595_398_1108354.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]VENUS FM TV</title>
+<link>http://universotvparaguay.site88.net/canalesparaguay.php/?banner=1</link>
+<thumbnail>http://universotvparaguay.site88.net/venusfmtv.png</thumbnail>
+<fanart>http://venus.com.py/wp-content/uploads/2016/02/Contigo-en-todas-partes-1.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]HEI MUSICA PY HD</title>
+<link>http://54.94.130.159:1935/live/heistream/playlist.m3u8</link>
+<thumbnail>https://yt3.ggpht.com/-2tVw4n1sTww/AAAAAAAAAAI/AAAAAAAAAAA/rBR938-pcqE/s100-c-k-no/photo.jpg</thumbnail>
+</item>
+ 
+ 
+<item>
+             <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL SNT</title>
+             <link>http://universotvparaguay.site88.net/canalesparaguay.php/?banner=4</link>
+             <thumbnail>https://pbs.twimg.com/profile_images/378800000301417614/940f68b8d83367d21213aa944f3559e3.jpeg</thumbnail>
+             <fanart></fanart>
+             <info></info>
+</item> 
+
+<item>
+             <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL SNT OPCION 2</title>
+             <link>rtmp://torneoclausuraamigoschatpy.web-personal.org/app/ramtvps-channel</link>
+             <thumbnail>https://pbs.twimg.com/profile_images/378800000301417614/940f68b8d83367d21213aa944f3559e3.jpeg</thumbnail>
+             <fanart></fanart>
+             <info></info>
+</item>             
+ 
+
+ 
+<item>
+             <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PARAGUAY TV ESTABLE</title>
+             <link>https://www.youtube.com/watch?v=wQRLuwnI4eE</link>
+             <thumbnail>http://universotvparaguay.site88.net/tvpublica.jpg</thumbnail>
+             <fanart></fanart>
+             <info></info>
+</item>   
+ 
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TV PUBLICA OPCION 2</title>
+<link>http://67.159.60.37/TV/paraguaytv/playlist.m3u8</link>
+<thumbnail>http://universotvparaguay.site88.net/tvpublica.jpg</thumbnail>
+</item>   
+     
+ 
+<item>
+    <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]UNICANAL</title>
+    <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+    <regex>
+    <name>get-m3u8final</name>
+    <expres>(http.*?)\s</expres>
+    <page>$doregex[get-m3u8]</page>
+    <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+    <cookieJar></cookieJar>
+    </regex>
+    <regex>
+    <name>get-m3u8</name>
+    <expres>$pyFunction:json.loads(page_data)['event']['stream_info']['m3u8_url']</expres>
+    <page>$doregex[get-json]</page>
+    </regex>    
+     
+    <regex>
+    <name>get-json</name>
+    <expres>config = ({.*})</expres>
+    <page>http://livestream.com/accounts/16070504/events/4504317/player?width=560&amp;height=315&amp;autoPlay=true&amp;mute=false</page>
+    <agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+    <cookieJar></cookieJar>
+    </regex>
+    <thumbnail>http://cdn.paraguay.com/photos/images/000/124/527/regular_unica.jpg.jpg?1425070530</thumbnail>
+    </item>
+     
+
+ 
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TELEFUTURO</title>
+<link>http://livestre.am/4RF2e</link>
+<thumbnail>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReXDX0I07NGRrj7Fp5CSYbmvCrumoml_J5ez5Ab3C8niqRo2aO</thumbnail>
+</item>
+ 
+ 
+ 
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL 13 PARAGUAY</title>
+<link>rtmp://70.36.100.38:1935/live playpath=canal13_hq.stream swfUrl=http://www.rpc.com.py/swf/player_web04.swf pageUrl=http://www.dparaguay.com/2013/09/canal-13-paraguay-en-vivo-online.html</link>
+<thumbnail>http://eltrece.com.py/images/logo-primavera.gif?1296238017</thumbnail>
+</item>
+
+
+ 
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]RED GUARANI OPCION 1</title>
+<link>http://iphone-streaming.ustream.tv/uhls/19109913/streams/live/iphone/playlist.m3u8</link>
+<thumbnail>https://yt3.ggpht.com/-7Wo49jSKVsE/AAAAAAAAAAI/AAAAAAAAAAA/BPaKp7cdQ3Y/s100-c-k-no/photo.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]RED GUARANI OPCION 2***ON***</title>
+            <link>$doregex[get-link]</link>
+            <regex>
+            <name>get-link</name>
+            <expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/19109913/streams/live/playlist.m3u8')</expres>
+            <page></page>
+            </regex> 
+            <thumbnail>https://yt3.ggpht.com/-7Wo49jSKVsE/AAAAAAAAAAI/AAAAAAAAAAA/BPaKp7cdQ3Y/s100-c-k-no/photo.jpg</thumbnail>
+        </item>   
+         
+<item>
+<title>[COLOR=khaki][B]*:[/B][/COLOR]PRUEBA</title>
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/18651489/streams/live/playlist.m3u8#megaIPTVArgentina</link>
+<thumbnail>http://4.bp.blogspot.com/-aD1jwQUmqjg/U7aTjO0HcWI/AAAAAAAAQVw/iKedgNaaYHg/s1600/Tv+Aire+Canal+19+En+Vivo+Online+Coronel+Oviedo+Paraguay.jpg</thumbnail>
+</item>
+ 
+ <item>
+			<title>[COLOR=khaki][B]*:[/B][/COLOR]PRUEBA  </title>
+			<link>http://$doregex[ip]$doregex[m3u8]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://www.pubucaster.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.embeducaster.com/membedplayer/directv2016/1/500/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.embeducaster.com</referer>
+			</regex>
+			<thumbnail>http://canalvivo.com.ar/wp-content/uploads/2013/06/directvplay.jpg</thumbnail></item>
+		
+</item>
+<item>
+<title>[COLOR=khaki][B]*:[/B][/COLOR]PRUEBA</title>
+<sportsdevil>http://tvxinternetonline.blogspot.com/2015/07/canal-tr3ce-colombia-en-vivo-por.html</sportsdevil>
+<referer>http://tvxinternetonline.blogspot.com</referer>
+<thumbnail>https://.com</thumbnail>
+<fanart>http://.com</fanart>
+<info>[B][/B]</info>
+</item>
+
+<item>
+<title>PRUEBA</title>
+<link>rtmp://$doregex[rtmp]/live playpath=zeyucmd200?id=244761pk=0a782130ece36fcdc6233f71fc05b473e84910515f123b7f19d9c2f51c734615 swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf pageUrl=http://www.mipsplayer.com/embedplayer/zeyucmd200/1/620/382 conn=S:OK live=1 swfVfy=1 timeout=20</link>
+<regex>
+<name>rtmp</name>
+<expres>.*redirect=([\.\d]+)</expres>
+<page>http://www.mipsplayer.com:1935/loadbalancer</page>
+</regex>
+</item>
+
+ 
+ 
+
+ 
+ 
+</channel>
+</channels>
