@@ -33,7 +33,7 @@
 <thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
 <fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
 <info>
-<item>
+</item>
 
 <item>
 <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT 2</title>
@@ -52,6 +52,14 @@
 <info>[B][/B]</info>
 </item>
 
+
+<item>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT 4</title>
+<link>http://inoseal.blogspot.com/p/vivo_18.html</link>
+<thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
+<fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
+<info>[B][/B]</info>
+</item>	
 
 
 <item>
@@ -146,7 +154,7 @@
  
 <item>
     <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]UNICANAL</title>
-    <link>$doregex[get-m3u8final]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+    <link>http://inoseal.blogspot.com/p/unicanal.html</link>
     <regex>
     <name>get-m3u8final</name>
     <expres>(http.*?)\s</expres>
@@ -190,7 +198,7 @@
  
 <item>
 <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]RED GUARANI OPCION 1</title>
-<link>http://iphone-streaming.ustream.tv/uhls/19109913/streams/live/iphone/playlist.m3u8</link>
+<link>http://www.ustream.tv/channel/19109913</link>
 <thumbnail>https://yt3.ggpht.com/-7Wo49jSKVsE/AAAAAAAAAAI/AAAAAAAAAAA/BPaKp7cdQ3Y/s100-c-k-no/photo.jpg</thumbnail>
 </item>
  
