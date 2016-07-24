@@ -36,7 +36,7 @@
 </item>
 
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT 2</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV: [/B][/COLOR]TIGO SPORT 2</title>
 <link>rtmp://95.211.184.231/live playpath=universotv?id=245697&pk=0a782130ece36fcdc6233f71fc05b473e84910515f123b7f19d9c2f51c734615 swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf live=1 pageUrl=http://www.mipsplayer.com/embedplayer/universotv/1/500/400</link>
 <thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
 <fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
@@ -45,7 +45,7 @@
 
 
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO  (addonspy)</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV: [/B][/COLOR]TIGO  (addonspy)</title>
 <link>$doregex[url]</link>
 <regex>
     <name>url</name>
@@ -64,7 +64,7 @@
 
 
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT 3</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV: [/B][/COLOR]TIGO SPORT 3</title>
 <sportsdevil>http://tvxinternetonline.blogspot.com/2015/01/tigo-sports-online-en-vivo-por-internet.html?m=1</sportsdevil>
 <referer>http://tvxinternetonline.blogspot.com</referer>
 <thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
@@ -74,7 +74,7 @@
 
 
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT prueba</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV: [/B][/COLOR]TIGO SPORT prueba</title>
 <link>http://tuttosportweb.com/update/ch32.html"</link>
 <thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
 <fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
@@ -82,7 +82,7 @@
 </item>	
 
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT VIVO</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV: [/B][/COLOR]TIGO SPORT VIVO</title>
 <link>http://tuttosportweb.com/update/ch32.html"</link>
 <thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
 <fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
