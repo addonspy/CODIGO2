@@ -45,12 +45,22 @@
 
 
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT (SOLO FUTBOL)</title>
-<link>http://tuttosportweb.com/ch32.html</link>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT EVENTOS (SOLO FUTBOL)</title>
+<link>$doregex[url]</link>
+<regex>
+    <name>url</name>
+    <expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
+    <page></page>
+</regex>
+<regex>
+    <name>jsonurl</name>
+    <expres>hlsvp":"(.*?)"</expres>
+    <page>http://tuttosportweb.com/ch32.html</page>
+</regex>
 <thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
 <fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
-<info>[B][/B]</info>
-</item>	
+<info>
+</item>
 
 
 <item>
