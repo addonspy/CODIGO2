@@ -46,7 +46,7 @@
 
 <item>
 <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT 2.1</title>
-<link>http://tuttosportweb.com/ch26.html</link>
+<link><iframe src="//sportstream365.com/viewer/frame/?game=88291905&header=1&autoplay=0&width=560&height=315" width="560" height="315" frameborder="0" scrolling="no"></iframe></link>
 <thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
 <fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
 <info>[B][/B]</info>
@@ -65,7 +65,7 @@
 
 <item>
 <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT 4</title>
-<link> rtmp://50.97.232.150/live playpath=185921?313432393232343832395f3863303363333234323438303934313136313961346433666561636233326165</link>
+<link>http://sportstream365.com/viewer?game=88291905</link>
 <thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
 <fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
 <info>[B][/B]</info>
