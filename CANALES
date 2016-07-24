@@ -45,7 +45,7 @@
 
 
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT EVENTOS (SOLO FUTBOL)</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT (eventos)</title>
 <link>$doregex[url]</link>
 <regex>
     <name>url</name>
