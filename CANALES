@@ -45,12 +45,12 @@
 
 
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO SPORT (addonspy)</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TIGO  (addonspy)</title>
 <link>$doregex[url]</link>
 <regex>
     <name>url</name>
     <expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
-    <page></page>
+    <page>http://tuttosportweb.com/update/ch32.html</page>
 </regex>
 <regex>
     <name>jsonurl</name>
