@@ -44,42 +44,6 @@
 </item>	
 
 
-<item>
-<title>[COLOR=khaki][B]*PARAGUAYTV: [/B][/COLOR]TIGO  (addonspy)</title>
-<link>$doregex[url]</link>
-<regex>
-    <name>url</name>
-    <expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
-    <page>http://tuttosportweb.com/update/ch32.html</page>
-</regex>
-<regex>
-    <name>jsonurl</name>
-    <expres>hlsvp":"(.*?)"</expres>
-    <page>http://tuttosportweb.com/update/ch32.html"</page>
-</regex>
-<thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
-<fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
-<info>
-</item>
-
-
-<item>
-<title>[COLOR=khaki][B]*PARAGUAYTV: [/B][/COLOR]TIGO SPORT 3</title>
-<sportsdevil>http://tvxinternetonline.blogspot.com/2015/01/tigo-sports-online-en-vivo-por-internet.html?m=1</sportsdevil>
-<referer>http://tvxinternetonline.blogspot.com</referer>
-<thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
-<fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
-<info>[B][/B]</info>
-</item>
-
-<item>
-<title>[COLOR=khaki][B]*PARAGUAYTV: [/B][/COLOR]TIGO SPORT 3</title>
-<sportsdevil>http://tvxinternetonline.blogspot.com/2015/01/tigo-sports-online-en-vivo-por-internet.html?m=1</sportsdevil>
-<referer>http://tvxinternetonline.blogspot.com</referer>
-<thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
-<fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
-<info>[B][/B]</info>
-</item>
 
 
 <item>
@@ -90,22 +54,8 @@
 <info>[B][/B]</info>
 </item>	
 
-<item>
-<title>[COLOR=khaki][B]*PARAGUAYTV: [/B][/COLOR]TIGO SPORT VIVO</title>
-<link>http://tuttosportweb.com/update/ch32.html"</link>
-<thumbnail>https://pbs.twimg.com/profile_images/620719866828464128/iYAWgH5c.png</thumbnail>
-<fanart>http://saladeprensa.tigoune.com.co/images/actualidad/tigosports.jpg</fanart>
-<info>[B][/B]</info>
-</item>	
 
 
-<item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CERRO TV</title>
-<link>http://$doregex[ip]$doregex[m3u8]</link>
-<thumbnail>http://4.bp.blogspot.com/-7Opv7xyzvAk/T6WYsKpQj2I/AAAAAAAACaM/fzMsuQg6uJA/s1600/CERRO%2BWALL2.jpg</thumbnail>
-<fanart>http://2.bp.blogspot.com/-T7NMyNna358/UHh2tJ_D6XI/AAAAAAAAKdc/alJ30XAnRzs/s1600/CERRO%2BWALL1.jpg</fanart>
-<info>[B][/B]</info>
-</item>	
 	
 <item>
 <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PARAVISION</title>
@@ -125,7 +75,7 @@
 </item>
 
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL 19 CORONEL OVIEDO</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL 19 CORONEL OVIEDO OFF</title>
             <link>$doregex[get-link]</link>
             <regex>
             <name>get-link</name>
@@ -165,7 +115,7 @@
 </item> 
 
 <item>
-             <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PARANA TV</title>
+             <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PARANA TV OFF</title>
              <link>rtmp://67.159.60.37/intercable playpath=intercable</link>
              <thumbnail>https://pbs.twimg.com/profile_images/378800000301417614/940f68b8d83367d21213aa944f3559e3.jpeg</thumbnail>
              <fanart></fanart>
@@ -175,18 +125,14 @@
 
  
 <item>
-             <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PARAGUAY TV ESTABLE</title>
+             <title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PARAGUAY TV OFF</title>
              <link>https://www.youtube.com/watch?v=wQRLuwnI4eE</link>
              <thumbnail>http://universotvparaguay.site88.net/tvpublica.jpg</thumbnail>
              <fanart></fanart>
              <info></info>
 </item>   
  
-<item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TV PUBLICA OPCION 2</title>
-<link>http://67.159.60.37/TV/paraguaytv/playlist.m3u8</link>
-<thumbnail>http://universotvparaguay.site88.net/tvpublica.jpg</thumbnail>
-</item>   
+
      
  
 <item>
@@ -217,7 +163,7 @@
      
 
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PRUEBA</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]PRUEBA (simpsons live)</title>
 <link>$doregex[url]</link>
 <regex>
     <name>url</name>
@@ -236,7 +182,7 @@
 
  
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TELEFUTURO 2 </title>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]TELEFUTURO OFF </title>
 <link>http://www.ustream.tv/channel/19109913</link>
 <thumbnail>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReXDX0I07NGRrj7Fp5CSYbmvCrumoml_J5ez5Ab3C8niqRo2aO</thumbnail>
 </item>
@@ -244,7 +190,7 @@
  
  
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL 13 PARAGUAY</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]CANAL 13 </title>
 <link>rtmp://70.36.100.38:1935/live playpath=canal13_hq.stream swfUrl=http://www.rpc.com.py/swf/player_web04.swf pageUrl=http://www.dparaguay.com/2013/09/canal-13-paraguay-en-vivo-online.html</link>
 <thumbnail>http://eltrece.com.py/images/logo-primavera.gif?1296238017</thumbnail>
 </item>
@@ -252,21 +198,12 @@
 
  
 <item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]RED GUARANI OPCION 1</title>
+<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]RED GUARANI OPCION OFF</title>
 <link>http://www.ustream.tv/channel/19109913</link>
 <thumbnail>https://yt3.ggpht.com/-7Wo49jSKVsE/AAAAAAAAAAI/AAAAAAAAAAA/BPaKp7cdQ3Y/s100-c-k-no/photo.jpg</thumbnail>
 </item>
  
-<item>
-<title>[COLOR=khaki][B]*PARAGUAYTV:[/B][/COLOR]RED GUARANI OPCION 2***ON***</title>
-            <link>$doregex[get-link]</link>
-            <regex>
-            <name>get-link</name>
-            <expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/19109913/streams/live/playlist.m3u8')</expres>
-            <page></page>
-            </regex> 
-            <thumbnail>https://yt3.ggpht.com/-7Wo49jSKVsE/AAAAAAAAAAI/AAAAAAAAAAA/BPaKp7cdQ3Y/s100-c-k-no/photo.jpg</thumbnail>
-        </item>   
+   
          
 <item>
 <title>[COLOR=khaki][B]*:[/B][/COLOR]PRUEBA</title>
