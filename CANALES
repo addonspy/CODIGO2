@@ -211,6 +211,18 @@
 <thumbnail>http://4.bp.blogspot.com/-aD1jwQUmqjg/U7aTjO0HcWI/AAAAAAAAQVw/iKedgNaaYHg/s1600/Tv+Aire+Canal+19+En+Vivo+Online+Coronel+Oviedo+Paraguay.jpg</thumbnail>
 </item>
  
+ <item>
+<title>[COLOR=khaki][B]*:[/B][/COLOR]PRUEBA REDE GLOGO</title>
+<link>http://art.nextv.ca:80/nextv/globo/index.m3u8</link>
+<thumbnail>http://4.bp.blogspot.com/-aD1jwQUmqjg/U7aTjO0HcWI/AAAAAAAAQVw/iKedgNaaYHg/s1600/Tv+Aire+Canal+19+En+Vivo+Online+Coronel+Oviedo+Paraguay.jpg</thumbnail>
+</item>
+
+ <item>
+<title>[COLOR=khaki][B]*:[/B][/COLOR]PRUEBA FOXSPORT2 ARG</title>
+<link>http://premium.exabytetv.info/cable/lwlfks4iejf0949jfmkk/958/exabytetv.m3u8</link>
+<thumbnail>http://4.bp.blogspot.com/-aD1jwQUmqjg/U7aTjO0HcWI/AAAAAAAAQVw/iKedgNaaYHg/s1600/Tv+Aire+Canal+19+En+Vivo+Online+Coronel+Oviedo+Paraguay.jpg</thumbnail>
+</item>
+ 
  
  <item>
 <title>[COLOR=khaki][B]*:[/B][/COLOR]PRUEBA TIGOMUSIC</title>
@@ -246,7 +258,7 @@
 
 <item>
 <title>PRUEBA FOX MOTORS</title>
-<link>rtmp://$doregex[rtmp]/live playpath=zeyucmd200?id=244761pk=0a782130ece36fcdc6233f71fc05b473e84910515f123b7f19d9c2f51c734615 swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf pageUrl=http://www.mipsplayer.com/embedplayer/zeyucmd200/1/620/382 conn=S:OK live=1 swfVfy=1 timeout=20</link>
+<link></link>
 <regex>
 <name>rtmp</name>
 <expres>.*redirect=([\.\d]+)</expres>
