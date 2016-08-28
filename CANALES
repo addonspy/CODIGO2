@@ -206,11 +206,17 @@
    
          
 <item>
-<title>[COLOR=khaki][B]*:[/B][/COLOR]PRUEBA RG</title>
-<link>http://iphone-streaming.ustream.tv/watch/playlist.m3u8?cid=19109913</link>
+<title>[COLOR=khaki][B]*:[/B][/COLOR]PRUEBA FOXSPORT1</title>
+<link>http://premium.exabytetv.info/cable/lwlfks4iejf0949jfmkk/962/exabytetv.m3u8</link>
 <thumbnail>http://4.bp.blogspot.com/-aD1jwQUmqjg/U7aTjO0HcWI/AAAAAAAAQVw/iKedgNaaYHg/s1600/Tv+Aire+Canal+19+En+Vivo+Online+Coronel+Oviedo+Paraguay.jpg</thumbnail>
 </item>
  
+ 
+ <item>
+<title>[COLOR=khaki][B]*:[/B][/COLOR]PRUEBA TIGOMUSIC</title>
+<link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/MESH/tu1_1.m3u8</link>
+<thumbnail>http://4.bp.blogspot.com/-aD1jwQUmqjg/U7aTjO0HcWI/AAAAAAAAQVw/iKedgNaaYHg/s1600/Tv+Aire+Canal+19+En+Vivo+Online+Coronel+Oviedo+Paraguay.jpg</thumbnail>
+</item>
  <item>
 			<title>[COLOR=khaki][B]*:[/B][/COLOR]PRUEBA  </title>
 			<link>http://$doregex[ip]$doregex[m3u8]</link>
@@ -239,12 +245,12 @@
 </item>
 
 <item>
-<title>PRUEBA</title>
+<title>PRUEBA FOX MOTORS</title>
 <link>rtmp://$doregex[rtmp]/live playpath=zeyucmd200?id=244761pk=0a782130ece36fcdc6233f71fc05b473e84910515f123b7f19d9c2f51c734615 swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf pageUrl=http://www.mipsplayer.com/embedplayer/zeyucmd200/1/620/382 conn=S:OK live=1 swfVfy=1 timeout=20</link>
 <regex>
 <name>rtmp</name>
 <expres>.*redirect=([\.\d]+)</expres>
-<page>http://www.mipsplayer.com:1935/loadbalancer</page>
+<page>http://motorsport.hopto.org:8080</page>
 </regex>
 </item>
 
